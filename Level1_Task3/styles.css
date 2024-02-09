@@ -1,0 +1,25 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+}
+body{
+background-color:#A43820;  
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    color:#46211A;
+    background-color: #F1D3B2;
+}
